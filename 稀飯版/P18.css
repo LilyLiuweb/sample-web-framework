@@ -1,0 +1,169 @@
+/* font-size設定 */
+
+h3{
+    text-align: center;
+    font-size:30px;
+    padding-bottom: 16px;
+}
+
+/* header設定 */
+.header{
+    display:flex;
+    background-color: #000000;
+    padding: 6px 10px;
+}
+
+.header .logo{
+    display: inline-block;
+    padding: 6px 0;
+}
+.logo img{
+    border-radius:50%;
+}
+
+.header nav{
+    text-align: right;
+    width: 100%;
+    font-size: 0;
+}
+
+.header nav a{
+    display: inline-block;
+    line-height: 52px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0px 10px;
+} 
+
+.header nav a:hover{
+    background-color: #fa0;
+}
+
+/* banner設定 */
+.banner img{
+    width: 100%;
+}
+
+/* path設定 */
+.path{
+    display: flex;
+
+}
+.path li{
+    padding: 6px 10px;
+    position: relative;
+}
+.path li a{
+    text-decoration: none;
+    color:#aaa;
+    font-size: 15px;
+}
+.path li + li::before{
+    content:'/';
+    color:#aaa;
+    position: absolute;
+    left: 0;
+}
+
+/* about設定 */
+.about{
+    padding: 60px 0 ;
+}
+.about .wrap{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0;
+}
+.about > h2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0 30px;
+}
+.about > p{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: large;
+}
+.wrap .item :hover{
+    color:#fa0;
+    transition: .5s ;
+}
+.about .wrap .item{
+    margin: 0 10px;
+    padding: 6px 8px;
+    text-align: center;
+}
+.about .wrap .item img{
+    border-radius: 50%;
+}
+
+/* products設定 */
+.products{
+    background-color: #eee;
+}
+.products .wrap {
+    display: flex;
+}
+.products .item{
+    width: 50%;
+}
+.wrap .txt > h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.products .item img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* service設定 */
+.wrap .txt{
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service .wrap{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    background-color: lightseagreen;
+}
+.service >h2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0 30px;
+
+}
+.service > p{
+padding-bottom:40px;
+text-align: center;
+}
+x
+.service .wrap div{
+
+    margin: 0 10px;
+    width: 100% ;
+    text-align: center;
+}
+/* footer設定 */
+.footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 20px ;
+    background-color: #000;
+    font-size: 16px;
+
+}
